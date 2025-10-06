@@ -1,12 +1,25 @@
-<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
-<Placemark>
-<ExtendedData></ExtendedData>
-  <Polygon>
-<outerBoundaryIs>
-  <LinearRing><coordinates>-49.28688690419443,-16.664325373986358
--49.2873173276478,-16.669812671655805
--49.280066347929335,-16.672572120269592
--49.2744377335363,-16.663468960735415
--49.28072853785801,-16.654872897011415
--49.28705245167643,-16.658013201190712
--49.28688690419443,-16.664325373986358</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Document></kml>
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>My Polygon Example</name>
+    <Placemark>
+      <name>Area Test</name>
+      <description>Shared KML via jsDelivr</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -49.28688690419443,-16.664325373986358
+              -49.2873173276478,-16.669812671655805
+              -49.280066347929335,-16.672572120269592
+              -49.2744377335363,-16.663468960735415
+              -49.28072853785801,-16.654872897011415
+              -49.28705245167643,-16.658013201190712
+              -49.28688690419443,-16.664325373986358
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
